@@ -1,0 +1,8 @@
+[package]
+name = "kampung_token"
+type = "contract"
+authors = ["Karim"]
+
+[dependencies]
+aztec = { git="https://github.com/AztecProtocol/aztec-packages", tag="master", directory="noir-projects/aztec-nr/aztec" }
+value_note = { git="https://github.com/AztecProtocol/aztec-packages", tag="master", directory="noir-projects/aztec-nr/value-note" }
